@@ -1,0 +1,126 @@
+% boardmvc
+ - src
+  - com.kitri.action
+   Action.java (I)
+  
+  - com.kitri.admin.board.action
+   CategoryListAction.java
+   CategoryMakeAction.java
+   BoardTypeListAction.java
+   BoardTypeMakeAction.java
+   BoardListAction.java
+  
+  - com.kitri.admin.board.controller
+   BoardAdminController.java (/boardadmin)
+  
+  - com.kitri.admin.board.model
+   CategoryDto.java
+   BoardTypeDto.java
+   BoardListDto.java
+  
+  - com.kitri.admin.board.dao
+   BoardAdminDao.java (I)
+   BoardAdminImpl.java
+  
+  - com.kitri.admin.board.service
+   BoardAdminService.java (I)
+   BoardAdminServiceImpl.java
+  
+  - com.kitri.album.action
+   AlbumWriteAction.java
+   AlbumListAction.java
+   AlbumViewAction.java
+  
+  - com.kitri.bbs.action
+   BbsWriteAction.java
+   BbsListAction.java
+   BbsViewAction.java
+   
+  - com.kitri.board.action
+   BoardWriteAction.java
+   BoardListAction.java
+   BoardViewAction.java
+  
+  - com.kitri.reboard.action
+   ReboardWriteAction.java
+   ReboardReplyAction.java
+   ReboardListAction.java
+   ReboardViewAction.java
+  
+  - com.kitri.board.controller
+   AlbumController.java (/album)
+   BbsController.java (/bbs)
+   BoardController.java (/board)
+   ReboardController.java (/reboard)
+   MemoController.java (/memo)
+
+  - com.kitri.board.model
+   BoardDto.java
+   ReboardDto.java
+   AlbumDto.java
+   BbsDto.java
+   MemoDto.java
+
+  - com.kitri.board.dao
+   AlbumDao.java (I)
+   BbsDao.java (I)
+   BoardDao.java (I)
+   ReboardDao.java (I)
+   MemoDao.java (I)
+   
+   AlbumDaoImpl.java
+   BbsDaoImpl.java
+   BoardDaoImpl.java
+   ReboardDaoImpl.java
+   MemoDaoImpl.java
+   
+  - com.kitri.board.service
+   AlbumService.java (I)
+   BbsService.java (I)
+   BoardService.java (I)
+   ReboardService.java (I)
+   MemoService.java (I)
+   
+   AlbumServiceImpl.java
+   BbsServiceImpl.java
+   BoardServiceImpl.java
+   ReboardServiceImpl.java
+   MemoServiceImpl.java
+  
+  - com.kitri.common.dao
+   CommonDao.java (I)
+   CommonDaoImpl.java
+  
+  - com.kitri.common.service
+   CommonService.java (I)
+   CommonServiceImpl.java
+  
+  - com.kitri.member.model
+   MemberDto.java
+  
+  - com.kitri.factory
+   BoardActionFactory.java
+  
+  - com.kitri.util
+   BoardConstance.java
+   StringCheck.java
+   NumberCheck.java
+   PageMove.java
+   PageNavigation.java
+  
+ - webContent
+  - doc : 기타문서
+  - css : stylesheet (*.css)
+  - js : javascript (*.js)
+  - img
+  ============================
+  *.jsp
+  - admin : 관리자
+  - common : 공통파일
+  - album : 사진게시판
+  - bbs : 자료실
+  - board : 일반게시판, 공지사항, 한줄게시판, 방명록
+  - reboard : 답변게시판
+  
+  
+  
